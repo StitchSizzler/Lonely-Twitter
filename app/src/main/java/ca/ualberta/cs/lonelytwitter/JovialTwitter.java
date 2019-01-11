@@ -4,21 +4,22 @@ package ca.ualberta.cs.lonelytwitter;
 
 public class JovialTwitter extends currentMood {
 
-	Date date;
-
-
-	public currentMood (Date currentDate){
-	/* takes the date as argument */
-
-		date = currentDate;
+	public void JovialTwitter (){
 
 	}
 
 
-	public currentMood (){
-	/* sets the date as default */
+	public void setDate (Date sometDate){
 
-		date = new Date ();
+
+		date = someDate;
+
+	}
+
+
+	public void getDate (){
+
+
 
 	}
 

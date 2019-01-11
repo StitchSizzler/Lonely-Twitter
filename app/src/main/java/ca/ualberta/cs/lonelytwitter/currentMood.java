@@ -8,20 +8,24 @@ public abstract class currentMood {
 
 	Date date;
 
-	public currentMood (Date currentDate){
-	/* takes the date as argument */
 
-		date = currentDate;
+	public void setDate (Date currentDate){
+	/* sets date from argument */
+
+		this.date = currentDate;
+
+	}
+
+
+	public void getDate (){
+	/* gets default date */
+
+		this.date = new Date;
 
 	}
 
 
-	public currentMood (){
-	/* sets the date as default */
-
-		date = new Date ();
-
-	}
+	public abstract String mood ();
 
 }
 

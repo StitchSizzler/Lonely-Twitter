@@ -4,23 +4,25 @@ package ca.ualberta.cs.lonelytwitter;
 
 public class DazedTwitter extends currentMood {
 
-	Date date;
+
+	public void DazedTwitter (){
+
+	}
+
+	public void setDate (Date sometDate){
 
 
-	public currentMood (Date currentDate){
-	/* takes the date as argument */
-
-		date = currentDate;
+		date = someDate;
 
 	}
 
 
-	public currentMood (){
-	/* sets the date as default */
+	public void getDate (){
 
-		date = new Date ();
+
 
 	}
+
 
 
 	public String mood (){
